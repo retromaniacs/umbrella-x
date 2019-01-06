@@ -51,13 +51,13 @@ or download zip.
 
 ### CSS
 
-Use the dist/css/seagull.css version or dist/minified/seagull.min.css minified one by placing one of the following in your html head section. 
+Use the dist/css/umbrellax.css version or dist/minified/umbrellax.min.css minified one by placing one of the following in your html head section. 
 
-    <link rel="stylesheet" href="dist/css/seagull.css">
+    <link rel="stylesheet" href="dist/css/umbrellax.css">
 
 or
 
-    <link rel="stylesheet" href="dist/minified/seagull.min.css">
+    <link rel="stylesheet" href="dist/minified/umbrellax.min.css">
 
 > Note: Be carefull with the path of the file
 
