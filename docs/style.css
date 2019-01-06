@@ -1,6 +1,6 @@
 .hero-main {
   
-  background-color: #fff3b5;
+  background-color: #eff2d5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,13 +31,13 @@ p {
 }
 
 .logo {
-  width: 30rem;
+  width: 45rem;
   margin-bottom: 1.2rem;
 }
 
 @media (max-width: 56.25em) {
   .logo {
-    width: 25rem;
+    width: 32rem;
   }
 }
 
