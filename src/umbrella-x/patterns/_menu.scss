@@ -9,7 +9,7 @@
     background: black;
     position: absolute;
     width: 2.4rem;
-    height: 3px;
+    height: 2px;
     border-radius: 5px;
     transition: .3s ease;
     &:nth-child(1) {
@@ -28,9 +28,9 @@
 }
 
 #menu_inputbox {
-  display: none;
+  display: none !important;
   &:checked {
-    ~ .slider {
+    ~ .menu-slider {
       right: 0;
     }
     + .menu_button .bar {
@@ -43,23 +43,24 @@
       }
       &:nth-child(3) {
         transform: rotate(-45deg);
-        bottom: 1.3rem;
+        bottom: 1.4rem;
       }
     }
   } 
 }
 
-.slider {
+.menu-slider {
   color: $primary;
   background: $secondary;
   position: fixed;
   top: 0;
   height: 100%;
   width: auto;
-  right: -30%;
+  right: -40%;
   box-sizing: border-box;
   transition: right .3s ease;
   z-index:2;
+  overflow-y: scroll;
   ul {
     height:auto;
     margin:0 0 auto !important;
@@ -78,8 +79,3 @@
         }
       }
       a {
-        color:$primary;
-      }
-    }
-  }
-}

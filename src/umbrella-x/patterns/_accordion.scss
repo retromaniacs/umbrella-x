@@ -1,6 +1,23 @@
 .accordion {
   margin: 3em auto;
   font-family:$font-family;
+  .content::-webkit-scrollbar-track
+  {
+    border-radius: 10px;
+    background-color: inherit;
+  }
+
+  .content::-webkit-scrollbar
+  {
+    width: 12px;
+    background-color: inherit;
+  }
+
+  .content::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    background-color: #9ea3a2;
+  }
 }
 
 .toggle {
@@ -62,24 +79,4 @@
     overflow-y: scroll;
   }
   & + .title:before {
-    transform: rotate(90deg) !important;
-  }
-}
-
-.content::-webkit-scrollbar-track
-{
-  border-radius: 10px;
-  background-color: inherit;
-}
-
-.content::-webkit-scrollbar
-{
-  width: 12px;
-  background-color: inherit;
-}
-
-.content::-webkit-scrollbar-thumb
-{
-  border-radius: 10px;
-  background-color: #9ea3a2;
-}
+    transform: ro
