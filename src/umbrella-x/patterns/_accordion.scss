@@ -1,20 +1,15 @@
 .accordion {
   margin: 3em auto;
   font-family:$font-family;
-  .content::-webkit-scrollbar-track
-  {
+  .content::-webkit-scrollbar-track{
     border-radius: 10px;
     background-color: inherit;
   }
-
-  .content::-webkit-scrollbar
-  {
+  .content::-webkit-scrollbar{
     width: 12px;
     background-color: inherit;
   }
-
-  .content::-webkit-scrollbar-thumb
-  {
+  .content::-webkit-scrollbar-thumb{
     border-radius: 10px;
     background-color: #9ea3a2;
   }
@@ -79,4 +74,6 @@
     overflow-y: scroll;
   }
   & + .title:before {
-    transform: ro
+    transform: rotate(90deg) !important;
+  }
+}

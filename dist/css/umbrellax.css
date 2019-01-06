@@ -2917,4 +2917,11 @@ article.type-system-rounded a.read-more {
 
 article.type-system-rounded a.read-more span {
   font-size: 1.5em;
-  
+  position: absolute;
+  right: -12px;
+  top: -1px;
+}
+
+article.type-system-rounded hr {
+  width: 3em;
+}
