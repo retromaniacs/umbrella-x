@@ -1,0 +1,42 @@
+.badge-default span, .badge-success span, .badge-error span, .badge-notice span, .badge-alert span{
+  text-align:center;
+  display: inline-block;
+  border-radius: 50px;
+
+
+}
+
+.badge-default , .badge-success , .badge-error , .badge-notice , .badge-alert {
+  margin:.3em;
+  padding:.4em .6em;
+  font-size:1em;
+  color:white;
+  text-shadow: 1px 1px $primary;
+  border-radius: 50px;
+  opacity:.8;
+
+  @media($tablet) {
+    margin:.5em;
+    padding:.7em 1em;
+  }
+}
+
+.badge-default {
+  background-color:$secondary;
+}
+
+.badge-success {
+  background-color:#83d181;
+}
+
+.badge-error {
+  background-color: #d17066;
+}
+
+.badge-notice {
+  background-color: #84afd1;
+}
+
+.badge-alert {
+  background-color: #d1cd96;
+}

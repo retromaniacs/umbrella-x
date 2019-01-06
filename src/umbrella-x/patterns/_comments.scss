@@ -1,0 +1,51 @@
+.comment {
+  border: 1px solid $secondary;
+  display: table;
+  margin-bottom: 1.5em;
+  padding:1em .5em .5em;
+  width: 100%;
+
+  .comment-image,
+  .comment-content {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .comment-image {
+    padding-right: 1.4em;
+
+   img {
+      border-radius: 5px;
+      display: block;
+      height: auto;
+      max-width: none;
+      width: 3.125em;
+    }
+
+    .comment-reverse-order & {
+      padding-left: 1em;
+      padding-right: 0;
+    }
+  }
+
+  .comment-content {
+    width: 100%;
+
+    h1 {
+      font-size: 1.3em;
+      margin: 0 0 0.5em 0;
+      color:#d1975f;
+    }
+
+    p {
+      line-height: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    p.comment-detail {
+      color: darken($secondary, 10%);
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  }
+}

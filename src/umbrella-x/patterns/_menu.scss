@@ -1,0 +1,85 @@
+.menu_button {
+  height: 2rem;
+  width: 2.4rem;
+  padding: .4rem .8rem;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+  .bar {
+    background: black;
+    position: absolute;
+    width: 2.4rem;
+    height: 3px;
+    border-radius: 5px;
+    transition: .3s ease;
+    &:nth-child(1) {
+      top: .2rem;
+    }
+    &:nth-child(2) {
+      top: calc(.8rem);
+    }
+    &:nth-child(3) {
+      bottom: .3rem;
+    }
+  }
+  &:hover .bar {
+    background: grey;
+  }
+}
+
+#menu_inputbox {
+  display: none;
+  &:checked {
+    ~ .slider {
+      right: 0;
+    }
+    + .menu_button .bar {
+      &:nth-child(1) {
+        transform: rotate(45deg);
+        top: .4rem;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+        bottom: 1.3rem;
+      }
+    }
+  } 
+}
+
+.slider {
+  color: $primary;
+  background: $secondary;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: auto;
+  right: -30%;
+  box-sizing: border-box;
+  transition: right .3s ease;
+  z-index:2;
+  ul {
+    height:auto;
+    margin:0 0 auto !important;
+    padding:0;
+    list-style:none;
+    width:100%;
+    li {
+      text-align: center;
+      padding:2rem 5rem;
+      
+      &:hover {
+        background-color:darken($secondary, 20%);
+        color:white !important;
+        a {
+          color:white;
+        }
+      }
+      a {
+        color:$primary;
+      }
+    }
+  }
+}

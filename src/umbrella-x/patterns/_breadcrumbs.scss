@@ -1,0 +1,72 @@
+.breadcrumb {
+  
+
+  display: inline-block;
+  margin-bottom: 1.5em;
+  text-align: left;
+
+  a {
+    border: 1px solid #c4c7cc;
+    border-left: 0;
+    color: #6b6d70;
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: 2.75em;
+    margin-bottom: 2px;
+    margin-right: -5px;
+    padding: 0 .8em 0 1.5em;
+    position: relative;
+    text-decoration: none;
+
+    &:first-child {
+      border-bottom-left-radius: 5px;
+      border-left: 1px solid #c4c7cc;;
+      border-top-left-radius: 5px;
+      padding-left: 1.3em;
+    }
+
+    &:last-child {
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+      color: #6b6d70;
+      padding-right: 1.35em;
+    }
+
+    &:focus,
+    &:hover {
+      background-color: $secondary;
+      color: $primary;
+    }
+
+    &::after,
+    &::before {
+      position:absolute;
+      border-bottom: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-top: 1px solid transparent;
+      content: "";
+      display: block;
+      margin: auto;
+      z-index: 2;
+    }
+
+    &:last-child::after,
+    &:last-child::before {
+       border: 0;
+    }
+
+    &::before {
+      margin-left: 1px;
+      z-index: 1;
+    }
+
+    &::after {
+      border-left-color: white;
+    }
+
+    @media (#{$desktop}) {
+      font-size: 1em;
+      padding: 0 1.4em 0 1em;
+    }
+  }
+}

@@ -1,0 +1,157 @@
+
+.pagination {
+    text-align: center;
+    font-size:1.3em;
+    color: $primary;
+
+
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline;
+      list-style: none;
+      margin:0 !important;
+
+    }
+
+    ul li {
+      display: none;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: inline;
+      }
+
+      @media ($desktop) {
+        display: inline;
+      }
+    }
+
+    li a {
+      
+      outline: none;
+      padding:0 1em;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+      border:1px solid $primary;
+      color:inherit;
+
+      &:hover,
+      &:focus, &:active {
+        background: $primary;
+        border:1px solid $primary;
+        color:white;
+      }
+    }
+  }
+}
+
+.pagination-clean {
+    text-align: center;
+    font-size:1.3em;
+    color: $primary;
+
+
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline;
+      list-style: none;
+      margin:0 !important;
+
+    }
+
+    ul li {
+      display: none;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: inline;
+      }
+
+      @media ($desktop) {
+        display: inline;
+      }
+    }
+
+    li a {
+      
+      outline: none;
+      padding:0 1em;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+    
+      color:inherit;
+
+      &:hover,
+      &:focus, &:active {
+        
+        
+        color:$hover-link-color;
+      }
+    }
+  }
+}
+
+.pagination-rnd {
+    text-align: center;
+    font-size:1.3em;
+    color: $primary;
+
+
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline;
+      list-style: none;
+      margin:0 !important;
+
+    }
+
+    ul li {
+      display: none;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: inline;
+      }
+
+      @media ($desktop) {
+        display: inline;
+      }
+    }
+
+    li a {
+      
+      outline: none;
+      padding:0 1em;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+      border:1px solid $primary;
+      color:inherit;
+      border-radius: 10px;
+
+      &:hover,
+      &:focus, &:active {
+        background: $primary;
+        border:1px solid $primary;
+        color:white;
+      }
+    }
+  }
+}

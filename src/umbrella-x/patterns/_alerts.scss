@@ -1,0 +1,29 @@
+.success, .error, .notice, .alert {
+  max-width:100%;
+  text-align:center;
+  opacity:.8;
+  display: block;
+  padding:.7em;
+  color:white;
+  text-shadow: 1px 1px $primary;
+  span {
+    font-weight: 600
+  }
+}
+
+
+.success {
+  background-color:#83d181;
+}
+
+.error {
+  background-color: #d17066;
+}
+
+.notice {
+  background-color: #84afd1;
+}
+
+.alert {
+  background-color: #d1cd96;
+}

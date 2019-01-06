@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>🌂 ✖ Umbrella-X</title>
+  <meta name="description" content="A CSS & SCSS Framework with both flex and classic 12 column grid system for responsive web sites and applications. ">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="umbrellax.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="https://github.com/retromaniacs/umbrella-x"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+
+  <header class="hero-main">
+    <p class="giant-umbrella">🌂</p>
+    <h1><strong>Umbrella-X</strong></h1>
+    <h5 style="text-align: center;">A UI/UX Library of patterns for Mighty Seagull</h5>
+    <div>
+      <a href="https://github.com/retromaniacs/umbrella-x" class="btn github">Github</a>
+    </div>
+  </header>
+
+  <section class="container section">
+    <h2 id="top">About</h2>
+    <p><strong>Umbrella-x </strong> a UI/UX Library of pure CSS pattern, based on the Mighty Seagull Framework, to build quick your web apps.</p>
+  </section>
+  <hr>
+  <section class="container section">
+    <h2>Installation</h2>
+
+    <p>Download Umbrella-X directly from GitHub repository.</p>
+    <a href="https://github.com/retromaniacs/umbrella-x/archive/master.zip" class="btn github">Download Umbrella-X</a>
+  </section>
+  <hr>
+
+  <section class="container section" id="top">
+    <h2>Table of contents</h2>
+    <ul class="contents-menu"><br>
+                <li><a href="#accordion">Accordion</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#badges">Badges</a></li>
+                <li><a href="#breadcrumbs">Breadcumbs</a></li>
+                <li><a href="#cards">Cards</a></li>
+                <li><a href="#carousel">Carousel</a></li>
+                <li><a href="#comments">Comments</a></li>
+                <li><a href="#dropdown">Dropdowns</a></li>
+                <li><a href="#expander">Expanders</a></li>
+                <li><a href="#footers">Footers</a></li>
+                <li><a href="#hero">Hero</a></li>
+                <li><a href="#menus">Menus</a></li>
+                <li><a href="#modals">Modal</a></li>
+                <li><a href="#navs">Navs</a></li>
+                <li><a href="#pagination">Pagination</a></li>
+                <li><a href="#popover">Popover</a></li>
+                <li><a href="#tooltip">Tooltips</a></li>
+                <li><a href="#type-systems">Type Systems</a></li>
+              </ul>
+  </section>
+  <hr>
+
+  <section class="container section" id="accordion">
+    <h2>Accordion Tabs</h2>
+    <p>Usefull & beautifull accordion tabs for expanding texts. <a href="#top"> Back to top</a></p>
+
+    <div class="accordion">
+      <div class="option">
+        <input type="checkbox" id="toggle1" class="toggle" />
+        <label class="title" for="toggle1">Accordion Tab 1
+        </label>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+      </div>
+
+      <div class="option">
+        <input type="checkbox" id="toggle2" class="toggle" />
+        <label class="title" for="toggle2">
+          Accordion Tab 2
+        </label>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+      </div>
+
+      <div class="option">
+        <input type="checkbox" id="toggle3" class="toggle" />
+        <label class="title" for="toggle3">
+          Accordion Tab 3
+        </label>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <hr>
+
+
+  <section class="container section" id="alerts">
+    <h2>Alerts</h2>
+    <p>Every Web Site uses some Alerts, here is some nice ones. <a href="#top"> Back to top</a></p>
+    <div class="success">
+       <span>This is a success message.</span>
+    </div>
+    <br>
+    <div class="error">
+      <span>This is an error message.</span>
+    </div>
+    <br>
+    <div class="notice">
+      <span>This is an notice message.</span>
+    </div>
+    <br>
+    <div class="alert">
+      <span>This is an alert message.</span>
+    </div>
+
+  </section>
+  <hr>
+
+
+  <section class="container section" id="badges">
+    <h2>Badges</h2>
+    <p>Nice and smooth set of badges!<a href="#top"> Back to top</a></p>
+
+    <div class="text-center">
+      <span class="badge-default">10</span>
+      <span class="badge-alert">10</span>
+      <span class="badge-error">10</span>
+      <span class="badge-notice">10</span>
+      <span class="badge-success">10</span>
+    </div>
+  </section>
+  <hr>
+
+
+  <section class="container section" id="breadcrumbs">
+    <h2>Breacrumbs</h2>
+    <p>A Simple breacrumb presentation. <a href="#top"> Back to top</a></p>
+    <div class="breadcrumb">
+      <a href="#">One</a>
+      <a href="#">Two</a>
+      <a href="#">Three</a>
+      <a href="#">Four</a>
+      <a href="#">Five</a>
+    </div>
+
+  </section>
+  <hr>
+
+
+  <section class="container section" id="cards">
+  <h2>Cards</h2>
+  <p>Responsive cards to used as project showcase or whatever you want.<a href="#top"> Back to top</a></p>
+  
+  
+  <ul class="cards">
+    <li class="cards-item">
+      <div class="card">
+        <div class="card-image"><img src="images/retromaniac.png"></div>
+        <div class="card-content">
+          <h3 class="card-title">Card Grid Layout</h3>
+          <p class="card-text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+          <button class="btn card-btn">Read More</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards-item">
+      <div class="card">
+        <div class="card-image"><img src="images/retromaniac.png"></div>
+        <div class="card-content">
+          <h3 class="card-title">Card Grid Layout</h3>
+          <p class="card-text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+          <button class="btn card-btn">Read More</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards-item">
+      <div class="card">
+        <div class="card-image"><img src="images/retromaniac.png"></div>
+        <div class="card-content">
+          <h3 class="card-title">Card Grid Layout</h3>
+          <p class="card-text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+          <button class="btn card-btn">Read More</button>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+  </section>
+  <hr>
+
+  <section class="container section" id="carousel">
+    <h2>Carousel</h2>
+    <p>CSS only carousel for interactive presentation.<a href="#top"> Back to top</a></p>
+    <div class="slider">
+      <input type="radio" name="slider" title="slide1" checked="checked" class="slider-nav"/>
+      <input type="radio" name="slider" title="slide2" class="slider-nav"/>
+      <input type="radio" name="slider" title="slide3" class="slider-nav"/>
+      <input type="radio" name="slider" title="slide4" class="slider-nav"/>
+      <div class="slider-inner">
+        <div class="slider-contents">
+          <img src="images/slider/image-slider-1.jpg" alt="">
+        </div>
+        <div class="slider-contents">
+          <img src="images/slider/image-slider-2.jpg" alt="">
+        </div>
+        <div class="slider-contents">
+          <img src="images/slider/image-slider-3.jpg" alt="">
+        </div>
+        <div class="slider-contents">
+          <img src="images/slider/image-slider-4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+<br>
+<p>Another Pure CSS Slider.</p>
+<div class="csslider infinity" id="slider">
+  <input type="radio" name="slides" checked="checked" id="slides_1"/>
+  <input type="radio" name="slides" id="slides_2"/>
+  <input type="radio" name="slides" id="slides_3"/>
+  <input type="radio" name="slides" id="slides_4"/>
+  <ul>
+    <li><img src="images/slider/image-slider-1.jpg""/>
+    <li><img src="images/slider/image-slider-2.jpg""/>
+    <li><img src="images/slider/image-slider-3.jpg""/>
+    <li><img src="images/slider/image-slider-4.jpg""/>
+  </ul>
+  <div class="arrows">
+    <label for="slides_1"></label>
+    <label for="slides_2"></label>
+    <label for="slides_3"></label>
+    <label for="slides_4"></label>
+    
+    <label class="goto-first" for="slides_1"></label>
+    <label class="goto-last" for="slides_6"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_1"></label>
+      <label for="slides_2"></label>
+      <label for="slides_3"></label>
+      <label for="slides_4"></label>
+      
+    </div>
+  </div>
+</div>
+  </section>
+  <hr>
+
+  <section class="container section" id="comments">
+    <h2>Comments</h2>
+    <p>Nice presentation of comments. <a href="#top"> Back to top</a></p>
+    <div class="comment">
+      <div class="comment-image">
+        <img src="images/retromaniac.png">
+      </div>
+      <div class="comment-content">
+        <h1>Retromaniac</h1>
+        <p>WOW!! What a great UI/UX Library 🎉 🎉 🎉 </p>
+        <p class="comment-detail">Commented 13 Minutes ago</p>
+      </div>
+    </div>
+
+  </section>
+  <hr>
+
+  <section class="container section" id="dropdown">
+    <h2>Dropdown Menu</h2>
+    <p>Pure CSS dropdown menu!<a href="#top"> Back to top</a></p>
+    <label class="dropdown">
+
+  <div class="dd-button">
+    Dropdown
+  </div>
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu">
+    <li>Option 1</li>
+    <li>Option 1</li>
+    <li>Option 1</li>
+    <li class="divider"></li>
+    <a href="https://retromaniacs.org">
+      <li>Retromaniacs</li>
+    </a>
+  </ul>
+  
+</label>
+
+  </section>
+  <hr>
+
+  <section class="container section" id="expander">
+    <h2>Expander</h2>
+    <p>Pure CSS expander section. <a href="#top"> Back to top</a></p>
+    <div class="expander">
+      <input class="toggle" id="expander-expandable-0" type="checkbox"/>
+      <label class="expander-header expander-toggle" for="expander-expandable-0"><span>Expandable Section</span></label>
+      <div class="expander-content">
+        <div class="expander-content-inner">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia fugiat facilis enim accusamus quisquam aut, repellendus incidunt quod optio facere labore illo numquam ipsum beatae vero debitis, fugit excepturi.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <hr>
+
+  <section class="container section" id="footers">
+    <h2>Footers</h2>
+    <p>Because the bottom of your page matters.<a href="#top"> Back to top</a></p>
+    <p>Footer 1</p>
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="images/retromaniac.png" alt="Logo image">
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><h3>Content</h3></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+        <ul>
+          <li><h3>Follow Us</h3></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+        <ul>
+          <li><h3>Legal</h3></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <hr>
+      <p>Copyright &copy; Section.</p>
+    </footer>
+
+    <p>Footer 2</p>
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <img src="images/retromaniac.png" alt="Logo image">
+        <h3>Retromaniacs</h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          -
+          <a href="#">About</a>
+          -
+          <a href="#">Contact</a>
+          -
+          <a href="#">Products</a>
+          
+        </p>
+
+        <p class="footer-company-name">Copyright &copy; Section.</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>21 Jump Street</span> Metropolitan City</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+5 555 555555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">mail@example.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>Small Description</span>
+          This is a small description or a subtitle about the site owner.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <p>Footer 3</p>
+    <footer class="footer-small">
+      <div class="footer-small-logo">
+        <img src="images/retromaniac.png" alt="Logo image">
+        <h3>Retromaniacs</h3>
+      </div>
+      
+        <p class="footer-small-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Products</a>
+          
+        </p>
+  
+      <div class="footer-small-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      <hr>
+      <p>Copyright &copy; Section.</p>
+    </footer>
+
+  </section>
+  <hr>
+
+  <section class="container section" id="hero">
+    <h2>Hero</h2>
+    <p>Nice hero's for your page. <a href="#top"> Back to top</a></p>
+    <p>Simple Hero</p>
+    <div class="hero">
+      <div class="hero-content">
+        <img src="images/retromaniac.png" alt="Image" class="hero-logo">
+        <p>This is simple Hero.</p>
+      </div>
+    </div>
+    <br>
+    
+    <p>100% view heigth (vh) Hero</p>
+
+    <header class="hero-ux">
+      <img src="images/retromaniac.png">
+      <h1><strong>Retromaniacs</strong></h1>
+      <h5 style="text-align: center;">This is Hero Title</h5>
+      <div>
+        <a href="#" class="btn">Button</a>
+      </div>
+    </header>
+
+  </section>
+  <hr>
+
+  <section class="container section" id="menus">
+    <h2>Menu</h2>
+    <p>Press the hamburger button to expand the menu.<a href="#top"> Back to top</a></p>
+    
+    <input type="checkbox" id="menu_inputbox">
+    <label class="menu_button" for="menu_inputbox">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </label>
+
+    
+
+      
+    <div class="slider">
+      <ul>
+        <li>Menu</li>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li> 
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>      
+      </ul>
+    </div>
+
+
+
+  </section>
+  <hr>
+
+  <section class="container section" id="modals">
+    <h2>Modal</h2>
+    <p>Click to trigger modal. Modal can used to login forms.<a href="#top"> Back to top</a></p>
+    <label for="modal"><button>Modal Trigger</button></label>
+    
+    <input class="modal-state" id="modal" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal"></label>
+        <h2>Modal Title</h2>
+        <p>This the content of the modal!</p>
+      </div>
+    </div>
+
+  </section>
+  <hr>
+
+  <section class="container section" id="navs">
+    <h2>Navs</h2>
+    <p>Navigation bar example.<a href="#top"> Back to top</a></p>
+    <div class="nav">
+      <div class="nav-header"><a href="#">
+        <img src="images/retromaniac.png" alt="Image" class="nav-logo">
+        <div class="nav-title"><p>Retromaniacs</p></div>
+        </a>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <input type="checkbox" id="nav-check">
+      <div class="nav-links">
+        <a href="#" >Home</a>
+        <a href="#" >About</a>
+        <a href="#" >Blog</a>
+        <a href="#" >Products</a>
+        <a href="#" >Contact</a>
+      </div>
+    </div>
+  </section>
+  <hr>
+  
+
+  <section class="container section" id="pagination">
+    <h2>Paginations</h2>
+    <p>Pagination for multiple pages. <a href="#top"> Back to top</a></p>
+    <h4>Clean:</h4><br>
+    <div class="pagination-clean">
+      <ul>
+        <li class="page-prev-clean"><a href="#">Prev</a></li>
+        <li>
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+          </ul>
+        </li>
+        <li class="page-next-clean"><a href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <h4>Simple:</h4><br>
+    <div class="pagination">
+      <ul>
+        <li class="page-prev"><a href="#">Prev</a></li>
+        <li>
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+          </ul>
+        </li>
+        <li class="page-next"><a href="#">Next</a></li>
+      </ul>
+    </div>
+
+    <h4>Rounded:</h4><br>
+    <div class="pagination-rnd">
+      <ul>
+        <li class="page-prev-rnd"><a href="#">Prev</a></li>
+        <li>
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+          </ul>
+        </li>
+        <li class="page-next-rnd"><a href="#">Next</a></li>
+      </ul>
+    </div>
+
+  </section>
+  <hr>
+
+
+  <section class="container section" id="popover">
+    <h2>Popover</h2>
+    <p>A cool popover.<a href="#top"> Back to top</a></p>
+    <div class="wraps">
+      <label class="popover-label" for="mark">Click</label>
+      <input type="checkbox" id="mark">
+      <div class="popover-div">
+        <p class="pop-title">Show me</p>
+        <p class="body">A unique code to identify your store.</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+
+  <section class="container section" id="tooltip">
+    <h2>Tooltip</h2>
+    <p>Beautifull Tooltip. <a href="#top"> Back to top</a></p>
+    <div class="tooltip">Hover over me
+      <span class="tooltiptext">This is some Text!</span>
+    </div>
+  </section>
+  <hr>
+
+  <section class="container section" id="type-systems">
+   <h2>Type Systems</h2>
+   <p>Type systems to show posts & other staff.<a href="#top"> Back to top</a></p> 
+   <article class="type-system-rounded clearfix">
+      <p class="type">Article Tag</p>
+      <img src="images/banner.png">
+      <h1>Article Title</h1>
+      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, perferendis! Odit quisquam <code>code block</code> dicta illum ipsa quod natus iure aliquid necessitatibus veritatis, itaque magnam aliquam, dolorum nostrum nemo, explicabo perspiciatis nobis!</h2>
+      <p class="date">24 Nov 2017</p>
+      <p><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.
+        <a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>
+      </p>
+      <h3>Subheading lorem</h3>
+      <p><span>Consequatur ullam, voluptatum</span> incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Accusamus. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit! Accusamus.</p>
+      <hr>
+      <p class="author">Author Name</p>
+    </article>
+  </section>
+  <hr>
+
+
+  <div class="container medium">
+    <footer>
+      <p class="footer-message">Build by <a href="https://github.com/retromaniacs">Retromaniacs </a>with ❤️. Licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br /></p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

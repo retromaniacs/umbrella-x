@@ -1,0 +1,60 @@
+/* Hero 1 */
+
+.hero {
+  align-items: center;
+  background-color: $secondary;
+  background-position: right;
+  background-size: none;
+  display: flex;
+  justify-content: center;
+  min-height: 25em;
+  padding: 2em;
+  color:$primary;
+
+  @media($desktop) {
+    background-position: left;
+    background-size: cover;
+    justify-content: flex-end;
+  }
+
+  .hero-content {
+    max-width: 10em;
+    text-align: center;
+
+    @media($desktop) {
+      text-align: left;
+    }
+  }
+
+  .hero-logo {
+    margin: auto;
+    width:15rem;
+    height:auto;
+  }
+}
+
+/* Hero 2 */
+
+.hero-ux {
+  min-height:100vh;
+  background-color: #fff3b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  img {
+    width:25rem;
+  }
+  @media (small) {
+    img {
+      width: 18rem;
+    }
+  }
+}
+
+
+
+

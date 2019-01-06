@@ -1,0 +1,84 @@
+.hero-main {
+  
+  background-color: #fff3b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.github {
+  color:white !important;
+  background-color: #f36662 !important;
+  border:0.1rem solid #d96769!important;
+}
+
+.github:hover {
+    color: white;
+    border: 0.1rem solid #8d9091;
+    background-color: #f77375 !important;
+}
+
+.logo {
+  width: 30rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 56.25em) {
+  .logo {
+    width: 25rem;
+  }
+}
+
+.giant-umbrella {
+  font-size:12em;
+}
+
+.contents-menu{
+  list-style:none;
+}
+
+.contents-menu li {
+  font-size: 1.3em;
+
+}
+
+.menu-button {
+
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.section:last-of-type {
+  padding-bottom: 10rem;
+}
+
+
+
+.device-background {
+  margin:20rem 0;
+}
+
+.footer-message {
+  text-align:center;
+   
+   font-style: italic;
+}
+
+footer {
+  margin-bottom: 3rem;
+}
+
