@@ -81,7 +81,7 @@ Import it in your main scss file under the Mighty Seagull:
 ## Documentation
 
 
-👷‍♂️[WIP]
+There are live examples with code in the umbrella-x site. See below.
 
 
 ## Examples
